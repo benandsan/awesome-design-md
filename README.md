@@ -226,9 +226,19 @@ Each site includes:
 
 ### How to Use
 
-
 1. Copy a site's `DESIGN.md` into your project root
 2. Tell your AI agent to use it.
+
+### Use as a Skill in CC Switch
+
+This collection also includes a root-level [`SKILL.md`](SKILL.md), so CC Switch can discover the repository as **one skill** (`awesome-design-md`). The 84 `DESIGN.md` files remain bundled as references; they are not separate skills.
+
+1. In CC Switch, open **Skills → Discover → Repos → Add or manage repositories**.
+2. Add `benandsan/awesome-design-md`, keep the branch as `main`, and leave **Skills path** empty to scan the repository root.
+3. Reload repositories if it was already added, then install `awesome-design-md` to your chosen app.
+4. Ask your agent to use a particular reference, such as `design-md/figma/DESIGN.md`.
+
+If you need a *single brand* instead of the complete collection, copy that brand's `DESIGN.md` to your project directly. A `DESIGN.md` by itself is **not** a discoverable skill in CC Switch; discovery requires a `SKILL.md` file.
 
 
 ## Contributing
