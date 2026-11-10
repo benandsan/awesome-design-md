@@ -1,6 +1,6 @@
 ---
 name: awesome-design-md
-description: Use a curated DESIGN.md from this repository as a visual reference when implementing a website or UI in the style of a named brand or product. Load the matching design document on demand and apply its tokens, typography, layout, and component guidance.
+description: 从本仓库选取与指定品牌或产品对应的 DESIGN.md，作为网站或界面实现的视觉参考；按需读取设计文档，并应用其色彩、字体、布局与组件规范。
 ---
 
 # Awesome DESIGN.md
